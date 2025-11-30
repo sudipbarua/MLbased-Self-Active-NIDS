@@ -1,0 +1,379 @@
+""
+------------------------------Begin Iteration for AL_EnS_avg: train_1-------------------------------
+*********************************Fitting model with ML method AL_EnS_avg*********************************
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'relu', 'layers': [64, 128, 256]}
+Validation Data Size: (50, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.028387968908415006 
+Precision: 1.0
+Recall: 0.014398354473774426 
+Total Training Time: 8.504331588745117
+Total Tune Time: 146.27343010902405 
+Total Test Time: 5.546369314193726
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 200, 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.7397260273972602 
+Precision: 0.8787735849056604
+Recall: 0.6386698663009942 
+Total Training Time: 9.091681241989136
+Total Tune Time: 180.18774032592773 
+Total Test Time: 5.703557252883911
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 14, 'n_neighbors': 7, 'p': 1, 'weights': 'distance', 'algorithm': 'kd_tree', 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8277153558052435 
+Precision: 0.8221170104835982
+Recall: 0.8333904696606103 
+Total Training Time: 9.097243547439575
+Total Tune Time: 186.09601426124573 
+Total Test Time: 6.3020875453948975
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8672817601135558 
+Precision: 0.8988598749540272
+Recall: 0.8378471031882071 
+Total Training Time: 18.19448709487915
+Total Tune Time: 192.00428819656372 
+Total Test Time: 12.269230842590332
+---------------------------------------------------------------------------------------
+Best parameters set for HDBSCAN:
+{'min_cluster_size': 5, 'min_samples': 3, 'gen_min_span_tree': True, 'core_dist_n_jobs': -1, 'algorithm': 'generic'}
+-------------------------------------------------------------------------------------
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'tanh', 'layers': [64, 128]}
+Validation Data Size: (100, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 24
+No of Samples: 1000 
+F1 Score: 0.18198815830476783 
+Precision: 1.0
+Recall: 0.10010284538909839 
+Total Training Time: 27.081231117248535
+Total Tune Time: 328.4367825984955 
+Total Test Time: 13.192206144332886
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 100, 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 24
+No of Samples: 1000 
+F1 Score: 0.7304075235109718 
+Precision: 0.8523090992226795
+Recall: 0.6390126842646555 
+Total Training Time: 27.379648447036743
+Total Tune Time: 364.81919622421265 
+Total Test Time: 13.278124570846558
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 11, 'n_neighbors': 4, 'p': 1, 'weights': 'uniform', 'algorithm': 'ball_tree', 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 24
+No of Samples: 1000 
+F1 Score: 0.861319073083779 
+Precision: 0.8971407352395099
+Recall: 0.8282482002056908 
+Total Training Time: 27.386757850646973
+Total Tune Time: 373.18476963043213 
+Total Test Time: 14.206447124481201
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 24
+No of Samples: 1000 
+F1 Score: 0.8782562466772993 
+Precision: 0.909024211298606
+Recall: 0.8495029139526912 
+Total Training Time: 36.579028606414795
+Total Tune Time: 381.5503430366516 
+Total Test Time: 20.234176874160767
+---------------------------------------------------------------------------------------
+*********************************EnS_avg Model Fit completed*********************************
+Total test time: 20.234176874160767
+Total train time: 36.579028606414795
+Total tune time: 381.5503430366516
+Normal Traffic Label Error: 0
+Botnet Label Error: 6
+Total Number of High Confidence Samples: 452
+Total Number of Low Confidence Samples: 48
+-------------------------End Iteration: AL_EnS_avg train_1-----------------------------
+------------------------------Begin Iteration for AL_EnS_avg: train_2-------------------------------
+*********************************Fitting model with ML method AL_EnS_avg*********************************
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'tanh', 'layers': [128, 256]}
+Validation Data Size: (50, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.049127343244990296 
+Precision: 1.0
+Recall: 0.025182239893969515 
+Total Training Time: 6.263005971908569
+Total Tune Time: 108.55377769470215 
+Total Test Time: 1.1978988647460938
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 100, 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.887584815697781 
+Precision: 0.9938398357289527
+Recall: 0.8018555334658715 
+Total Training Time: 6.558831691741943
+Total Tune Time: 141.77991580963135 
+Total Test Time: 1.275395154953003
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 18, 'n_neighbors': 3, 'p': 1, 'weights': 'distance', 'algorithm': 'ball_tree', 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8397511848341233 
+Precision: 0.7592394215318693
+Recall: 0.9393638170974155 
+Total Training Time: 6.564041614532471
+Total Tune Time: 147.1215889453888 
+Total Test Time: 1.5622034072875977
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.9345096708517137 
+Precision: 0.9575799721835884
+Recall: 0.9125248508946322 
+Total Training Time: 13.128083229064941
+Total Tune Time: 152.46326208114624 
+Total Test Time: 8.540297746658325
+---------------------------------------------------------------------------------------
+Best parameters set for HDBSCAN:
+{'min_cluster_size': 3, 'min_samples': 1, 'gen_min_span_tree': True, 'core_dist_n_jobs': -1, 'algorithm': 'generic'}
+-------------------------------------------------------------------------------------
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'LeakyRelu', 'layers': [128, 256]}
+Validation Data Size: (100, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 10
+No of Samples: 1000 
+F1 Score: 0.39211507725093236 
+Precision: 1.0
+Recall: 0.243870112657389 
+Total Training Time: 20.59264636039734
+Total Tune Time: 287.0360460281372 
+Total Test Time: 9.53281044960022
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 600, 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 10
+No of Samples: 1000 
+F1 Score: 0.8695652173913043 
+Precision: 0.9953011533532679
+Recall: 0.7720344599072233 
+Total Training Time: 22.453349113464355
+Total Tune Time: 324.41235637664795 
+Total Test Time: 9.959732055664062
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 22, 'n_neighbors': 3, 'p': 1, 'weights': 'uniform', 'algorithm': 'kd_tree', 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 10
+No of Samples: 1000 
+F1 Score: 0.7938829787234042 
+Precision: 0.7965310206804537
+Recall: 0.7912524850894632 
+Total Training Time: 22.461541414260864
+Total Tune Time: 332.88133668899536 
+Total Test Time: 10.90989637374878
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 10
+No of Samples: 1000 
+F1 Score: 0.8270251149628582 
+Precision: 0.8869499241274659
+Recall: 0.7746852220013254 
+Total Training Time: 31.794999599456787
+Total Tune Time: 341.3503170013428 
+Total Test Time: 17.375365495681763
+---------------------------------------------------------------------------------------
+*********************************EnS_avg Model Fit completed*********************************
+Total test time: 17.375365495681763
+Total train time: 31.794999599456787
+Total tune time: 341.3503170013428
+Normal Traffic Label Error: 0
+Botnet Label Error: 1
+Total Number of High Confidence Samples: 475
+Total Number of Low Confidence Samples: 25
+-------------------------End Iteration: AL_EnS_avg train_2-----------------------------
+------------------------------Begin Iteration for AL_EnS_avg: train_3-------------------------------
+*********************************Fitting model with ML method AL_EnS_avg*********************************
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'relu', 'layers': [128, 256]}
+Validation Data Size: (50, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.5760667903525046 
+Precision: 0.9880668257756563
+Recall: 0.4065466448445172 
+Total Training Time: 4.625066041946411
+Total Tune Time: 104.16558480262756 
+Total Test Time: 1.32155442237854
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 100, 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.9350605079256861 
+Precision: 0.9754623044096729
+Recall: 0.8978723404255319 
+Total Training Time: 4.898585319519043
+Total Tune Time: 134.18242287635803 
+Total Test Time: 1.405792474746704
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 22, 'n_neighbors': 9, 'p': 1, 'weights': 'distance', 'algorithm': 'ball_tree', 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8037697744867047 
+Precision: 0.8271562175268444
+Recall: 0.7816693944353519 
+Total Training Time: 4.902905464172363
+Total Tune Time: 140.88813424110413 
+Total Test Time: 1.746927261352539
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8823821339950373 
+Precision: 0.8919732441471572
+Recall: 0.8729950900163667 
+Total Training Time: 9.805810928344727
+Total Tune Time: 147.59384560585022 
+Total Test Time: 7.660150527954102
+---------------------------------------------------------------------------------------
+Best parameters set for HDBSCAN:
+{'min_cluster_size': 3, 'min_samples': 1, 'gen_min_span_tree': True, 'core_dist_n_jobs': -1, 'algorithm': 'generic'}
+-------------------------------------------------------------------------------------
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'relu', 'layers': [128, 256]}
+Validation Data Size: (100, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 20
+No of Samples: 1000 
+F1 Score: 0.5068426197458454 
+Precision: 1.0
+Recall: 0.339443535188216 
+Total Training Time: 17.293633937835693
+Total Tune Time: 271.8350806236267 
+Total Test Time: 8.659018993377686
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 800, 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 20
+No of Samples: 1000 
+F1 Score: 0.9405204460966544 
+Precision: 0.97205728257073
+Recall: 0.9109656301145663 
+Total Training Time: 19.763883352279663
+Total Tune Time: 317.57116436958313 
+Total Test Time: 9.248855352401733
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 25, 'n_neighbors': 5, 'p': 1, 'weights': 'distance', 'algorithm': 'kd_tree', 'n_jobs': -1}
+Validation Batch Size: (100, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 20
+No of Samples: 1000 
+F1 Score: 0.8458230958230958 
+Precision: 0.7966444894417125
+Recall: 0.9014729950900163 
+Total Training Time: 19.771716356277466
+Total Tune Time: 325.9008617401123 
+Total Test Time: 10.079437255859375
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 2 
+No. of Queries: 20
+No of Samples: 1000 
+F1 Score: 0.9111956341987762 
+Precision: 0.9207887700534759
+Recall: 0.9018003273322422 
+Total Training Time: 29.737621784210205
+Total Tune Time: 334.2305591106415 
+Total Test Time: 16.84724998474121
+---------------------------------------------------------------------------------------
+*********************************EnS_avg Model Fit completed*********************************
+Total test time: 16.84724998474121
+Total train time: 29.737621784210205
+Total tune time: 334.2305591106415
+Normal Traffic Label Error: 0
+Botnet Label Error: 11
+Total Number of High Confidence Samples: 471
+Total Number of Low Confidence Samples: 29
+-------------------------End Iteration: AL_EnS_avg train_3-----------------------------

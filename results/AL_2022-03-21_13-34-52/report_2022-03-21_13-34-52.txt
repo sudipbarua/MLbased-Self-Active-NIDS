@@ -1,0 +1,20 @@
+""
+-----------------Splitting Dataset--------------------
+Number of Chunks: 3
+Number of Chunks for train: 2
+Number of Chunks for test: 1
+*************************************Dataset_train_1_test_1**************************************
+Train Dataset Dimension: (30000, 78)
+Test Dataset Dimension: (15000, 78)
+Initial training batch size: 500
+Normal training batch size: 3000
+*************************************Dataset_train_2_test_2**************************************
+Train Dataset Dimension: (30000, 78)
+Test Dataset Dimension: (15000, 78)
+Initial training batch size: 500
+Normal training batch size: 3000
+*************************************Dataset_train_3_test_3**************************************
+Train Dataset Dimension: (30000, 78)
+Test Dataset Dimension: (15000, 78)
+Initial training batch size: 500
+Normal training batch size: 3000

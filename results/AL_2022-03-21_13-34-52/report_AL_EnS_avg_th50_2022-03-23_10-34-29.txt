@@ -1,0 +1,59 @@
+""
+------------------------------Begin Iteration for AL_EnS_avg: train_1-------------------------------
+*********************************Fitting model with ML method AL_EnS_avg*********************************
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'tanh', 'layers': [128, 256]}
+Validation Data Size: (50, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.478000520697735 
+Precision: 0.9935064935064936
+Recall: 0.3147068906410696 
+Total Training Time: 10.68062949180603
+Total Tune Time: 209.31090331077576 
+Total Test Time: 5.173703193664551
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 400, 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+RF_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.9355009719031631 
+Precision: 0.9653537563822028
+Recall: 0.9074391498114501 
+Total Training Time: 13.53273057937622
+Total Tune Time: 299.91958141326904 
+Total Test Time: 5.708019971847534
+---------------------------------------------------------------------------------------
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 18, 'n_neighbors': 6, 'p': 1, 'weights': 'distance', 'algorithm': 'kd_tree', 'n_jobs': -1}
+Validation Batch Size: (50, 79)
+----------------------------------------------------------------------------------
+KNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8397115917914587 
+Precision: 0.9113162118780096
+Recall: 0.7785395954748029 
+Total Training Time: 13.547301769256592
+Total Tune Time: 322.30304431915283 
+Total Test Time: 6.122852087020874
+---------------------------------------------------------------------------------------
+EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.879100626612606 
+Precision: 0.9505779194898366
+Recall: 0.8176208433321906 
+Total Training Time: 27.094603538513184
+Total Tune Time: 344.6865072250366 
+Total Test Time: 41.38388705253601
+---------------------------------------------------------------------------------------

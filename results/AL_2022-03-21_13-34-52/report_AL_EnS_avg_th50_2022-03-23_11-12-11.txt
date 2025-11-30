@@ -1,0 +1,18 @@
+""
+------------------------------Begin Iteration for AL_EnS_avg: train_1-------------------------------
+*********************************Fitting model with ML method AL_EnS_avg*********************************
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'tanh', 'layers': [128, 128, 64, 32]}
+Validation Data Size: (50, 79)
+----------------------------------------------------------------------------------
+CNN_EnS_avg Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.0 
+Precision: 0.0
+Recall: 0.0 
+Total Training Time: 10.260385036468506
+Total Tune Time: 172.6648588180542 
+Total Test Time: 4.869670152664185
+---------------------------------------------------------------------------------------
