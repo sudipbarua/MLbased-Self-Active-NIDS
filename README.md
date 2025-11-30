@@ -1,7 +1,8 @@
 # ML Based Self-Active Network Intrusion Detection System
 
 **A Self-Active Learning Framework for Network Intrusion Detection**
-
+ 
+ 
 ![Status](https://img.shields.io/badge/Status-Research_Project-green)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Institution](https://img.shields.io/badge/TU-Chemnitz-darkgreen)
@@ -68,6 +69,47 @@ The framework was evaluated on two challenging real-world datasets:
     * `tensorflow` / `keras` (CNN implementation).
 * **External Tools:**
     * **Argus:** Audit Record Generation and Utilization System for flow generation.
+
+---
+
+## 📁 Folder structure
+
+Below is a high-level overview of the repository layout and the purpose of the main files and folders. Use this as a quick reference to find scripts, data, notebooks, and results.
+
+- Root & core scripts
+    - `active_learner.py`, `active_self_learner.py`, `active_learner_sample_initialize.py`, `AL_test_init_stage.py` — main active/self-learning implementation and experiment logic.
+    - `script.py`, `script_AL.py`, `script_AL_seq.py`, `script_AL_parallel.py`, `script_AL_seq_individual.py`, `script_AL_seq_load_model.py`, `script_step_1_initialize.py` — experiment orchestration and runner scripts.
+
+- Data handling & feature engineering
+    - `data_preparation.py`, `data_splitting.py`, `feature_selection.py` — data cleaning, feature extraction/selection, and split generation for experiments.
+
+- Model logic & tuning
+    - `model_fitter.py`, `model_tuner.py`, `clf_tune.py`, `LR_tuning.py`, `svm_tuning.py` — model training, evaluation, and hyperparameter tuning utilities.
+    - `param_distribution.yaml`, `best_param_init.txt` — tuning configuration and example initial parameters.
+
+- Labeling & algorithm support
+    - `unsupervised_labeling.py` — cluster-based unsupervised labeling (e.g., HDBSCAN-based flows).
+    - `methods.py` — shared helper functions and project-wide utilities.
+
+- Models & specialized implementations
+    - `CNN/` — Convolutional Neural Network model implementation and supporting files (`CNN.py`).
+
+- Notebooks & analysis
+    - `Notebooks/` — Jupyter notebooks used for exploration, feature selection, labeling demos, and evaluation reports.
+
+- Datasets & splits
+    - `SDN_DS/` — cleaned SDN dataset CSVs for experiments.
+    - `train_test_df/` — sample train/test split CSVs (`train_1.csv` ... `test_1.csv`).
+    - `complete_all_scenarios_NoTransfer_withHeader_withLabel-26-1-2021-bak.csv` — main dataset CSV provided in the repository.
+
+- Outputs, figures & documentation
+    - `results/` — experiment outputs (reports, CSVs, and `final_results/`).
+    - `fig/` — figures and visual resources used in the paper and reports.
+    - `document/` — project documentation and reports (e.g., `Results.md`).
+
+- Configuration & utilities
+    - `config_directories.yaml`, `config_directories_2_stage_model.yaml` — configuration files for directory structure and model setups.
+    - `plotting.py` — plotting utilities for generating evaluation visuals.
 
 ---
 
