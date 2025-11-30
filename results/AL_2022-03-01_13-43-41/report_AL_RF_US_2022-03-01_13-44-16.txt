@@ -1,0 +1,502 @@
+""
+------------------------------Begin Iteration for AL_RF_US: train_1-------------------------------
+*********************************Fitting model with ML method AL_RF_US*********************************
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 400, 'n_jobs': -1}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 2 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 0.40978050231933594
+Total Tune Time: 13.938430309295654 
+Total Test Time: 0.10492205619812012
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 3 
+No. of Queries: 510
+No of Samples: 3500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 0.8195610046386719
+Total Tune Time: 27.87686061859131 
+Total Test Time: 0.20984411239624023
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 4 
+No. of Queries: 1033
+No of Samples: 6500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 1.2293415069580078
+Total Tune Time: 41.81529092788696 
+Total Test Time: 0.31476616859436035
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 5 
+No. of Queries: 1535
+No of Samples: 9500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 1.6391220092773438
+Total Tune Time: 55.75372123718262 
+Total Test Time: 0.41968822479248047
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 6 
+No. of Queries: 2051
+No of Samples: 12500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 2.0489025115966797
+Total Tune Time: 69.69215154647827 
+Total Test Time: 0.5246102809906006
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 7 
+No. of Queries: 2550
+No of Samples: 15500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 2.4586830139160156
+Total Tune Time: 83.63058185577393 
+Total Test Time: 0.6295323371887207
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 8 
+No. of Queries: 3034
+No of Samples: 18500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 2.8684635162353516
+Total Tune Time: 97.56901216506958 
+Total Test Time: 0.7344543933868408
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 9 
+No. of Queries: 3586
+No of Samples: 21500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 3.2782440185546875
+Total Tune Time: 111.50744247436523 
+Total Test Time: 0.8393764495849609
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 10 
+No. of Queries: 4078
+No of Samples: 24500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 3.6880245208740234
+Total Tune Time: 125.44587278366089 
+Total Test Time: 0.944298505783081
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 11 
+No. of Queries: 4584
+No of Samples: 27500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 4.097805023193359
+Total Tune Time: 139.38430309295654 
+Total Test Time: 1.0492205619812012
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 12 
+No. of Queries: 5100
+No of Samples: 30500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 4.507585525512695
+Total Tune Time: 153.3227334022522 
+Total Test Time: 1.1541426181793213
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 13 
+No. of Queries: 5614
+No of Samples: 33500 
+F1 Score: 0.8866897057283486 
+Precision: 0.8819791666666666
+Recall: 0.8914508317540535 
+Total Training Time: 4.917366027832031
+Total Tune Time: 167.26116371154785 
+Total Test Time: 1.2590646743774414
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 600, 'n_jobs': -1}
+Validation Batch Size: (3500, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 14 
+No. of Queries: 5899
+No of Samples: 35000 
+F1 Score: 0.928642793290214 
+Precision: 0.9276184473158945
+Recall: 0.9296694040850706 
+Total Training Time: 9.11793327331543
+Total Tune Time: 183.50566697120667 
+Total Test Time: 1.4582011699676514
+---------------------------------------------------------------------------------------
+*********************************AL_RF_US Model Fit completed*********************************
+Total test time: 1.4582011699676514
+Total train time: 9.11793327331543
+Total tune time: 183.50566697120667
+Normal Traffic Label Error: 2092
+Botnet Label Error: 1294
+Total Number of High Confidence Samples: 57202
+Total Number of Low Confidence Samples: -22702
+Total test time: 1.4582011699676514
+Total train time: 9.11793327331543
+Total tune time: 183.50566697120667
+Normal Traffic Label Error: 2092
+Botnet Label Error: 1294
+-------------------------End Iteration: AL_RF_US train_1-----------------------------
+------------------------------Begin Iteration for AL_RF_US: train_2-------------------------------
+*********************************Fitting model with ML method AL_RF_US*********************************
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 100, 'n_jobs': -1}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 2 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.11303949356079102
+Total Tune Time: 12.459329843521118 
+Total Test Time: 0.03136873245239258
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 3 
+No. of Queries: 510
+No of Samples: 3500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.22607898712158203
+Total Tune Time: 24.918659687042236 
+Total Test Time: 0.06273746490478516
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 4 
+No. of Queries: 1013
+No of Samples: 6500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.33911848068237305
+Total Tune Time: 37.377989530563354 
+Total Test Time: 0.09410619735717773
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 5 
+No. of Queries: 1520
+No of Samples: 9500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.45215797424316406
+Total Tune Time: 49.83731937408447 
+Total Test Time: 0.1254749298095703
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 6 
+No. of Queries: 2026
+No of Samples: 12500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.5651974678039551
+Total Tune Time: 62.29664921760559 
+Total Test Time: 0.1568436622619629
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 7 
+No. of Queries: 2530
+No of Samples: 15500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.6782369613647461
+Total Tune Time: 74.75597906112671 
+Total Test Time: 0.18821239471435547
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 8 
+No. of Queries: 3036
+No of Samples: 18500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.7912764549255371
+Total Tune Time: 87.21530890464783 
+Total Test Time: 0.21958112716674805
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 9 
+No. of Queries: 3548
+No of Samples: 21500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 0.9043159484863281
+Total Tune Time: 99.67463874816895 
+Total Test Time: 0.2509498596191406
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 10 
+No. of Queries: 4054
+No of Samples: 24500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 1.0173554420471191
+Total Tune Time: 112.13396859169006 
+Total Test Time: 0.2823185920715332
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 11 
+No. of Queries: 4556
+No of Samples: 27500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 1.1303949356079102
+Total Tune Time: 124.59329843521118 
+Total Test Time: 0.3136873245239258
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 12 
+No. of Queries: 5052
+No of Samples: 30500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 1.2434344291687012
+Total Tune Time: 137.0526282787323 
+Total Test Time: 0.34505605697631836
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 13 
+No. of Queries: 5515
+No of Samples: 33500 
+F1 Score: 0.8610918504137197 
+Precision: 0.7735237937048418
+Recall: 0.9710175145954962 
+Total Training Time: 1.3564739227294922
+Total Tune Time: 149.51195812225342 
+Total Test Time: 0.37642478942871094
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 100, 'n_jobs': -1}
+Validation Batch Size: (3500, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 14 
+No. of Queries: 5765
+No of Samples: 35000 
+F1 Score: 0.8696177810843486 
+Precision: 0.7848749370488501
+Recall: 0.9748748957464554 
+Total Training Time: 2.110471487045288
+Total Tune Time: 163.97827243804932 
+Total Test Time: 0.4141213893890381
+---------------------------------------------------------------------------------------
+*********************************AL_RF_US Model Fit completed*********************************
+Total test time: 0.4141213893890381
+Total train time: 2.110471487045288
+Total tune time: 163.97827243804932
+Normal Traffic Label Error: 2388
+Botnet Label Error: 1234
+Total Number of High Confidence Samples: 57470
+Total Number of Low Confidence Samples: -22970
+Total test time: 0.4141213893890381
+Total train time: 2.110471487045288
+Total tune time: 163.97827243804932
+Normal Traffic Label Error: 2388
+Botnet Label Error: 1234
+-------------------------End Iteration: AL_RF_US train_2-----------------------------
+------------------------------Begin Iteration for AL_RF_US: train_3-------------------------------
+*********************************Fitting model with ML method AL_RF_US*********************************
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 200, 'n_jobs': -1}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 2 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 0.2259688377380371
+Total Tune Time: 10.482850790023804 
+Total Test Time: 0.06135368347167969
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 3 
+No. of Queries: 455
+No of Samples: 3500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 0.4519376754760742
+Total Tune Time: 20.965701580047607 
+Total Test Time: 0.12270736694335938
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 4 
+No. of Queries: 932
+No of Samples: 6500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 0.6779065132141113
+Total Tune Time: 31.44855237007141 
+Total Test Time: 0.18406105041503906
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 5 
+No. of Queries: 1367
+No of Samples: 9500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 0.9038753509521484
+Total Tune Time: 41.931403160095215 
+Total Test Time: 0.24541473388671875
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 6 
+No. of Queries: 1801
+No of Samples: 12500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 1.1298441886901855
+Total Tune Time: 52.41425395011902 
+Total Test Time: 0.30676841735839844
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 7 
+No. of Queries: 2234
+No of Samples: 15500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 1.3558130264282227
+Total Tune Time: 62.89710474014282 
+Total Test Time: 0.3681221008300781
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 8 
+No. of Queries: 2666
+No of Samples: 18500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 1.5817818641662598
+Total Tune Time: 73.37995553016663 
+Total Test Time: 0.4294757843017578
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 9 
+No. of Queries: 3116
+No of Samples: 21500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 1.8077507019042969
+Total Tune Time: 83.86280632019043 
+Total Test Time: 0.4908294677734375
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 10 
+No. of Queries: 3558
+No of Samples: 24500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 2.033719539642334
+Total Tune Time: 94.34565711021423 
+Total Test Time: 0.5521831512451172
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 11 
+No. of Queries: 3975
+No of Samples: 27500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 2.259688377380371
+Total Tune Time: 104.82850790023804 
+Total Test Time: 0.6135368347167969
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 12 
+No. of Queries: 4404
+No of Samples: 30500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 2.485657215118408
+Total Tune Time: 115.31135869026184 
+Total Test Time: 0.6748905181884766
+---------------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 13 
+No. of Queries: 4838
+No of Samples: 33500 
+F1 Score: 0.8927166400850611 
+Precision: 0.9044489927825057
+Recall: 0.8812847696021833 
+Total Training Time: 2.7116260528564453
+Total Tune Time: 125.79420948028564 
+Total Test Time: 0.7362442016601562
+---------------------------------------------------------------------------------------
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 600, 'n_jobs': -1}
+Validation Batch Size: (3500, 30)
+----------------------------------------------------------------------------------
+AL_RF_US Model 
+No. of Retrains: 14 
+No. of Queries: 5041
+No of Samples: 35000 
+F1 Score: 0.9198562724574285 
+Precision: 0.9127738735014469
+Recall: 0.9270494384381233 
+Total Training Time: 7.260998487472534
+Total Tune Time: 145.28730130195618 
+Total Test Time: 0.9452073574066162
+---------------------------------------------------------------------------------------
+*********************************AL_RF_US Model Fit completed*********************************
+Total test time: 0.9452073574066162
+Total train time: 7.260998487472534
+Total tune time: 145.28730130195618
+Normal Traffic Label Error: 1922
+Botnet Label Error: 1656
+Total Number of High Confidence Samples: 58918
+Total Number of Low Confidence Samples: -24418
+Total test time: 0.9452073574066162
+Total train time: 7.260998487472534
+Total tune time: 145.28730130195618
+Normal Traffic Label Error: 1922
+Botnet Label Error: 1656
+-------------------------End Iteration: AL_RF_US train_3-----------------------------

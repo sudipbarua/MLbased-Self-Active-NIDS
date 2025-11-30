@@ -1,0 +1,12 @@
+Best parameters set for model_cnn:
+{'batch_size': 512, 'epochs': 35, 'learn_rate': 0.0001, 'activation': 'LeakyRelu', 'layers': [128, 256]}
+
+Best parameters set for RandomForestClassifier:
+{'n_estimators': 600, 'n_jobs': -1}
+
+Best parameters set for KNeighborsClassifier:
+{'leaf_size': 22, 'n_neighbors': 10, 'p': 1, 'weights': 'distance', 'algorithm': 'ball_tree', 'n_jobs': -1}
+
+Best parameters set for SVC:
+{'C': 250, 'gamma': 80}
+Validation Batch Size: (600, 30)

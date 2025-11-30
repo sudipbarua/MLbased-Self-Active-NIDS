@@ -1,2 +1,2 @@
-# MLbased-Self-Active-NIDS
-A network intrusion detection system leveraging self learning and active learning 
+# Unsupervised Labeling
+We will develop a framework to label dataset using clustering methods which helps us to convert unsupervised learnig problem to supervised learning problem

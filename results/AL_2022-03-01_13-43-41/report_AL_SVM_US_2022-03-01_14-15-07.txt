@@ -1,0 +1,18 @@
+""
+------------------------------Begin Iteration for AL_SVM_US: train_1-------------------------------
+*********************************Fitting model with ML method AL_SVM_US*********************************
+Best parameters set for SVC:
+{'C': 100, 'gamma': 40}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.8113340728042755 
+Precision: 0.7784442724458205
+Recall: 0.8471257106759318 
+Total Training Time: 0.011692047119140625
+Total Tune Time: 1.898639440536499 
+Total Test Time: 0.21218514442443848
+---------------------------------------------------------------------------------------

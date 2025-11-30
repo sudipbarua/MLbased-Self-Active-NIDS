@@ -1,0 +1,157 @@
+""
+------------------------------Begin Iteration for AL_SVM_US: train_1-------------------------------
+*********************************Fitting model with ML method AL_SVM_US*********************************
+Best parameters set for SVC:
+{'C': 250, 'gamma': 20, 'probability': True}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.7644643135624059 
+Precision: 0.7550056473970633
+Recall: 0.7741629816803538 
+Total Training Time: 0.04508805274963379
+Total Tune Time: 0.8272075653076172 
+Total Test Time: 0.1729278564453125
+---------------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 2 
+No. of Queries: 741
+No of Samples: 3500 
+F1 Score: 0.7644643135624059 
+Precision: 0.7550056473970633
+Recall: 0.7741629816803538 
+Total Training Time: 0.09017610549926758
+Total Tune Time: 1.6544151306152344 
+Total Test Time: 0.345855712890625
+---------------------------------------------------------------------------------------
+Best parameters set for SVC:
+{'C': 200, 'gamma': 60, 'probability': True}
+Validation Batch Size: (400, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 3 
+No. of Queries: 868
+No of Samples: 4000 
+F1 Score: 0.7737397420867527 
+Precision: 0.7833405265429435
+Recall: 0.7643714466203412 
+Total Training Time: 1.2721688747406006
+Total Tune Time: 6.246929407119751 
+Total Test Time: 0.9641563892364502
+---------------------------------------------------------------------------------------
+*********************************AL_SVM_US Model Fit completed*********************************
+Total test time: 0.9641563892364502
+Total train time: 1.2721688747406006
+Total tune time: 6.246929407119751
+Normal Traffic Label Error: 248
+Botnet Label Error: 117
+Total Number of High Confidence Samples: 2632
+Total Number of Low Confidence Samples: 868
+-------------------------End Iteration: AL_SVM_US train_1-----------------------------
+------------------------------Begin Iteration for AL_SVM_US: train_2-------------------------------
+*********************************Fitting model with ML method AL_SVM_US*********************************
+Best parameters set for SVC:
+{'C': 250, 'gamma': 30, 'probability': True}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.7940623644512989 
+Precision: 0.7383705297122882
+Recall: 0.8588407005838199 
+Total Training Time: 0.046379804611206055
+Total Tune Time: 0.7587625980377197 
+Total Test Time: 0.16443896293640137
+---------------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 2 
+No. of Queries: 505
+No of Samples: 3500 
+F1 Score: 0.7940623644512989 
+Precision: 0.7383705297122882
+Recall: 0.8588407005838199 
+Total Training Time: 0.09275960922241211
+Total Tune Time: 1.5175251960754395 
+Total Test Time: 0.32887792587280273
+---------------------------------------------------------------------------------------
+Best parameters set for SVC:
+{'C': 250, 'gamma': 80, 'probability': True}
+Validation Batch Size: (400, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 3 
+No. of Queries: 586
+No of Samples: 4000 
+F1 Score: 0.8198250728862975 
+Precision: 0.7677466326902075
+Recall: 0.8794829024186822 
+Total Training Time: 1.172447919845581
+Total Tune Time: 5.006092309951782 
+Total Test Time: 0.8535783290863037
+---------------------------------------------------------------------------------------
+*********************************AL_SVM_US Model Fit completed*********************************
+Total test time: 0.8535783290863037
+Total train time: 1.172447919845581
+Total tune time: 5.006092309951782
+Normal Traffic Label Error: 237
+Botnet Label Error: 111
+Total Number of High Confidence Samples: 2914
+Total Number of Low Confidence Samples: 586
+-------------------------End Iteration: AL_SVM_US train_2-----------------------------
+------------------------------Begin Iteration for AL_SVM_US: train_3-------------------------------
+*********************************Fitting model with ML method AL_SVM_US*********************************
+Best parameters set for SVC:
+{'C': 10, 'gamma': 30, 'probability': True}
+Validation Batch Size: (50, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 1 
+No. of Queries: 0
+No of Samples: 500 
+F1 Score: 0.7398706162751107 
+Precision: 0.6222349488152338
+Recall: 0.9123543612889682 
+Total Training Time: 0.034559011459350586
+Total Tune Time: 0.8218042850494385 
+Total Test Time: 0.22513961791992188
+---------------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 2 
+No. of Queries: 461
+No of Samples: 3500 
+F1 Score: 0.7398706162751107 
+Precision: 0.6222349488152338
+Recall: 0.9123543612889682 
+Total Training Time: 0.06911802291870117
+Total Tune Time: 1.643608570098877 
+Total Test Time: 0.45027923583984375
+---------------------------------------------------------------------------------------
+Best parameters set for SVC:
+{'C': 200, 'gamma': 20, 'probability': True}
+Validation Batch Size: (400, 30)
+----------------------------------------------------------------------------------
+AL_SVM_US Model 
+No. of Retrains: 3 
+No. of Queries: 540
+No of Samples: 4000 
+F1 Score: 0.7749824067558059 
+Precision: 0.6669694904989023
+Recall: 0.9247402120289703 
+Total Training Time: 0.9390583038330078
+Total Tune Time: 4.901002883911133 
+Total Test Time: 0.9338345527648926
+---------------------------------------------------------------------------------------
+*********************************AL_SVM_US Model Fit completed*********************************
+Total test time: 0.9338345527648926
+Total train time: 0.9390583038330078
+Total tune time: 4.901002883911133
+Normal Traffic Label Error: 219
+Botnet Label Error: 186
+Total Number of High Confidence Samples: 2960
+Total Number of Low Confidence Samples: 540
+-------------------------End Iteration: AL_SVM_US train_3-----------------------------

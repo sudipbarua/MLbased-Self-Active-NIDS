@@ -1,0 +1,12 @@
+Iteration_path_train_1: ./results/AL_2022-03-21_13-34-52/Iteration_train_1
+Iteration_path_train_2: ./results/AL_2022-03-21_13-34-52/Iteration_train_2
+Iteration_path_train_3: ./results/AL_2022-03-21_13-34-52/Iteration_train_3
+batch_sz: 3000
+init_batch_sz: 500
+main_directory: ./results/AL_2022-03-21_13-34-52
+n_chunk_test: 1
+n_chunk_train: 2
+n_chunks: 3
+report_directory: ./results/AL_2022-03-21_13-34-52/report_2022-03-21_13-34-52.txt
+results_AL_EnS_avg_t50: ./results/AL_2022-03-21_13-34-52/Iteration_train_3/AL_EnS_avg/results_AL_EnS_avg_th50.csv
+results_AL_SVM_US_t50: ./results/AL_2022-03-21_13-34-52/Iteration_train_3/AL_SVM_US/results_AL_SVM_US_th50.csv
