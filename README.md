@@ -1,5 +1,4 @@
-# Unsupervised Labeling
-We will develop a framework to label dataset using clustering methods which helps us to convert unsupervised learnig problem to supervised learning problem# ML Based Self-Active Network Intrusion Detection System
+# ML Based Self-Active Network Intrusion Detection System
 
 **A Self-Active Learning Framework for Network Intrusion Detection**
 
